@@ -1,1 +1,5 @@
-
+function addNumbers(){
+  let a = Number(document.getElementById("num1").value);
+  let b = Number(document.getElementById("num2").value);
+  document.getElemebtbyId("result").innerText = "Result: "+add(a,b);
+}
